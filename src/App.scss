@@ -1,0 +1,43 @@
+.App {
+  position: relative;
+  overflow-x: hidden;
+}
+
+.cart
+{
+  display: none;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10rem;
+  height: 100vh;
+  background-color: whitesmoke;
+  transition: transform 500 cubic-bezier(0.23, 1, 0.320, 1);
+}
+.cart-show
+{
+  transform: translateX(0);
+}
+.cart-hide
+{
+  transform: translateX(100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
